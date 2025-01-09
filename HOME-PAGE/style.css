@@ -1,0 +1,71 @@
+ /* Custom Styling */
+ .hero-section {
+    background-image: url('/ASSETS/hero-bg.jpg'); /* Replace with your background image */
+    background-size: cover;
+    /* background-position: center; */
+    text-align: center;
+    padding: 50px 20px;
+  }
+  /* Underline for active nav link */
+.nav-link.active {
+position: relative;
+}
+
+.nav-link.active::after {
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+width: 80%;
+height: 2px;
+background-color: #007bff; /* Change to your desired color */
+transition: width 0.3s ease;
+}
+
+/* Hover underline for other nav links */
+.nav-link:hover::after {
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 2px;
+background-color: #007bff; /* Same color as the active underline */
+transition: width 0.3s ease;
+}
+
+.nav-link {
+position: relative;
+}
+
+.nav-link::after {
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+width: 0;
+height: 2px;
+background-color: #007bff;
+transition: width 0.3s ease;
+}
+.stats-card {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .stats-card i {
+    font-size: 36px;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #0d6efd;
+  }
+  .stats-card h3 {
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  .stats-card p {
+    color: #6c757d;
+  }

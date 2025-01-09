@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Departments</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .tab-content img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top  " style="border-bottom: 1px solid #5e5ef8;">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="#">Medilab</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="/HOME-PAGE/Index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/ABOUT-PAGE/Index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/SERVICES-PAGE/Index.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/DEPARTMENT-PAGE/Index.html">Departments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/DOCTORS-PAGE/Index.html">Doctors</a>
+          </li>
+
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/BLOG-PAGE/Index.html">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/CONTACT-PAGE/Index.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary btn-sm ms-3" href="/MAKEAPPOINTMET-PAGE/index.html">Make an Appointment</a>
+          </li>
+        </ul>
+      </div>
+  </div>
+  </nav>
+
+  <div class="container my-5 p-5">
+    <h2 class="text-center mb-4 text-primary">Departments</h2>
+    <p class="text-center mb-5 fs-3">Departments at Our Medlab</p>
+    <div class="row">
+      <!-- Tabs Navigation -->
+      <div class="col-md-3">
+        <ul class="nav nav-pills flex-column" id="departmentTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="cardiology-tab" data-bs-toggle="tab" data-bs-target="#cardiology" type="button" role="tab" aria-controls="cardiology" aria-selected="true">Cardiology</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="neurology-tab" data-bs-toggle="tab" data-bs-target="#neurology" type="button" role="tab" aria-controls="neurology" aria-selected="false">Neurology</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="hepatology-tab" data-bs-toggle="tab" data-bs-target="#hepatology" type="button" role="tab" aria-controls="hepatology" aria-selected="false">Hepatology</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pediatrics-tab" data-bs-toggle="tab" data-bs-target="#pediatrics" type="button" role="tab" aria-controls="pediatrics" aria-selected="false">Pediatrics</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="eyecare-tab" data-bs-toggle="tab" data-bs-target="#eyecare" type="button" role="tab" aria-controls="eyecare" aria-selected="false">Eye Care</button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Tab Content -->
+      <div class="col-md-9">
+        <div class="tab-content" id="departmentTabContent">
+          <div class="tab-pane fade show active" id="cardiology" role="tabpanel" aria-labelledby="cardiology-tab">
+            <h3 class="text-primary">Cardiology</h3>
+            <div class="d-flex g-5">
+            <p>Cardiology Department
+                The Cardiology Department specializes in diagnosing, treating, and preventing disorders of the heart and blood vessels. This includes a range of cardiovascular diseases such as coronary artery disease, heart failure, arrhythmias, and congenital heart defects.
+                    *Diagnostic Tests:
+                    •	Electrocardiogram (ECG or EKG)
+                    •	Echocardiography
+                    •	Stress testing
+                    •	Holter monitoring
+                    •	Cardiac catheterization and angiography
+                   </p>
+            <img src="/ASSETS/cardiology.jpg" alt="Cardiology" class="img-fluid" style="width: 40%;">
+        </div>
+          </div>
+          <div class="tab-pane fade" id="neurology" role="tabpanel" aria-labelledby="neurology-tab">
+            <h3 class="text-primary">Neurology</h3>
+            <div class="d-flex g-5">
+            <p>Neurology Department
+                The Neurology Department focuses on the diagnosis, treatment, and management of disorders affecting the brain, spinal cord, peripheral nerves, and muscles. This includes a wide range of neurological conditions such as strokes, epilepsy, migraines, and neurodegenerative diseases.            
+                    *Diagnostic Tests:
+                    •	Electroencephalogram (EEG)
+                    •	Magnetic Resonance Imaging (MRI) and Computed Tomography (CT)
+                    •	Nerve conduction studies (NCS) and Electromyography (EMG)
+                    •	Lumbar puncture for cerebrospinal fluid analysis
+                                </p>
+            <img src="/ASSETS/departments-2.jpg" alt="Neurology" class="img-fluid" width="40%">
+        </div>
+          </div>
+          <div class="tab-pane fade" id="hepatology" role="tabpanel" aria-labelledby="hepatology-tab">
+            <h3 class="text-primary">Hepatology</h3>
+            <div class="d-flex g-5">
+            <p>Neurology Department 
+                The Neurology Department focuses on the diagnosis, treatment, and management of disorders affecting the brain, spinal cord, peripheral nerves, and muscles. This includes a wide range of neurological conditions such as strokes, epilepsy, migraines, and neurodegenerative diseases.
+                 	Treatment and Management:
+                    •	Stroke care and rehabilitation
+                    •	Seizure and epilepsy management
+                    •	Treatment of movement disorders like Parkinsons disease
+                    •	Chronic headache and migraine therapy
+                    •	Multiple sclerosis and autoimmune disorder treatment
+                    *	Specialized Care:
+                    •	Management of neurodegenerative diseases such as Alzheimers and ALS
+                    •	Pain management for neuropathy and neuralgia
+                    •	Sleep disorder evaluations and treatment</p>
+            <img src="/ASSETS/departments-3.jpg" alt="Hepatology" class="img-fluid" style="width: 40%;">
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pediatrics" role="tabpanel" aria-labelledby="pediatrics-tab">
+            <h3 class="text-primary">Pediatrics</h3>
+            <div class="d-flex g-5">
+            <p>Pediatrics Department
+                The Pediatrics Department specializes in the medical care and treatment of infants, children, and adolescents, ensuring their physical, mental, and emotional well-being from birth to young adulthood. It addresses a wide range of conditions, from routine health checkups to complex medical issues.                
+                    *	Preventive Care:
+                    •	Routine health checkups and growth monitoring
+                    •	Immunizations and vaccinations
+                    •	Nutritional guidance and developmental assessments
+                    •	Health education and counseling for parents
+                    *	Specialized Pediatric Services:
+                    •	Pediatric surgery and emergency care
+                    •	Pediatric cardiology, neurology, and gastroenterology consultations
+                    •	Care for genetic and congenital disorders
+                    •	Pediatric oncology and hematology services
+                </p>
+            <img src="/ASSETS/departments-4.jpg" alt="Pediatrics" class="img-fluid" style="width: 40%;">
+          </div>
+        </div>
+          <div class="tab-pane fade" id="eyecare" role="tabpanel" aria-labelledby="eyecare-tab">
+            <h3 class="text-primary">Eye Care</h3>
+            <div class="d-flex g-5">
+            <p>Eye Care Department
+                The Eye Care Department focuses on the prevention, diagnosis, and treatment of eye and vision-related conditions. It offers a wide range of services, from routine eye exams to advanced surgical procedures, ensuring optimal eye health and clear vision for patients of all ages.                
+                    *	Routine Eye Care:
+                    •	Comprehensive eye exams
+                    •	Vision testing and prescription of glasses or contact lenses
+                    •	Screening for common conditions like cataracts, glaucoma, and macular degeneration
+                    *	Medical and Surgical Treatment:
+                    •	Management of refractive errors (myopia, hyperopia, astigmatism)
+                    •	Treatment of eye infections, allergies, and dry eye syndrome
+                    •	Cataract surgery, LASIK, and other corrective procedures
+                    •	Glaucoma management, including medication and surgery
+                    •	Retinal treatments for conditions such as diabetic retinopathy
+                    </p>
+            <img src="/ASSETS/eyecare.jpg" alt="Eye Care" class="img-fluid" style="width: 40%;">
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
